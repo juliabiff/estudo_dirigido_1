@@ -29,3 +29,25 @@ Class Funcionario{
 empregado recebe novo funcionario
 
 }
+
+
+
+
+
+------------------
+    
+    <?php
+
+include "funcionario.php";
+
+$funcionarios = new Funcionario();
+$funcionarios->departamento = "1";
+$funcionarios->salario = 250;
+$funcionarios->dataEntrada = "22/10";
+$funcionarios->CPF = "11-8171.765";
+$funcionarios->mostra();
+
+
+
+$funcionarios2 = new Funcionario();
+$funcionarios2->departamento = "2";
