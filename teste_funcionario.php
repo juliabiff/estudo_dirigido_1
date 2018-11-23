@@ -49,5 +49,19 @@ $funcionarios->mostra();
 
 
 
-$funcionarios2 = new Funcionario();
-$funcionarios2->departamento = "2";
+$funcionario2 = new Funcionario();
+$funcionario2->departamento = "2";
+
+$data = new Data();
+$data->dia = 4;
+$data->mes = 4;
+$data->ano = 1932;
+
+
+        //Questao 11
+
+$fucionarios->informarDataEntrada($data);
+
+$funcinarios->cpf = "111.222.333-45";
+
+echo $funcionarios->mostra();
